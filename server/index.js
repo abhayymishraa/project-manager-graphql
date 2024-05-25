@@ -1,22 +1,23 @@
-
-
 const express = require('express');
-var { createHandler } = require("graphql-http/lib/use/express")
-var { ruruHTML } = require("ruru/server")
-
-const schema = require('./schema/schema');
 const connectDB = require('./config/db');
+const schema = require('./schema/schema');
+var { ruruHTML } = require("ruru/server");
+const cors = require('cors');
+var { createHandler } = require("graphql-http/lib/use/express")
+require('dotenv').config(); // Load environment variables
+const PORT = 5000;
+
+
+// Connect Database
+connectDB();
 
 const app = express();
-require('dotenv').config(); // Load environment variables
-const PORT = process.env.PORT  || 3000;
 
-
-//connect to database
-connectDB();
+app.use(cors());
  
 // Serve the GraphiQL IDE.
-app.get("/", (_req, res) => {
+
+app.get("/api", (_req, res) => {
   res.type("html")
   res.end(ruruHTML({ endpoint: "/graphql" }))
 })
