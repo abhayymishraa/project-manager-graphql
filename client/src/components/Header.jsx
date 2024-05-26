@@ -6,7 +6,7 @@ export default function Header() {
             <a className='navbar-brand' href='/'>
             <div className='d-flex'>
               <img src={logo} alt='logo' className='mr-2' />
-              <div>GraphQL</div>
+              <div>Project-Manager-GraphQL</div>
             </div>
             </a>
        </div>
