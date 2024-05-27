@@ -78,12 +78,14 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm install
    ```
-4. Run 
+4. copy .env.example to .env in both client and server and replace your credentials
+
+5. Run 
    
     ```sh
     npm run dev
     ```
-5. Access website
+6. Access website
    ```sh
    http://localhost:3000/
    ```
@@ -98,11 +100,12 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    cd project-manager-graphql
    ```
-   3. In terminnal use this command to run containers
+   4. copy .env.example to .env in both client and server and replace your credentials
+   5. In terminnal use this command to run containers
    ```sh
    docker compose up
    ```
-   4. Access website
+   6. Access website
    ```sh
    http://localhost:3000/
    ```
