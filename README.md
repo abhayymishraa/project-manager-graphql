@@ -65,10 +65,14 @@ To get a local copy up and running, follow these simple steps.
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/abhayymishraa/project-manager-graphql
+   ```
+
+2. Chnage the directory
+   ```sh
+   cd project-manager-graphql
    ```
 3. Install NPM packages
    ```sh
@@ -127,6 +131,6 @@ Don't forget to give the project a star! Thanks again!
 
 Name - [@abhayymishraa](https://github.com/abhayymishraa/project-manager-graphql) - grabhaymishra@gmail.com
 
-Project Link: [https://github.com/abhayymishraa/project-manager-graphql](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/abhayymishraa/project-manager-graphql](project-manager-graphql)
 
 
