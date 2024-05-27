@@ -78,6 +78,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm install
    ```
+   
 4. copy .env.example to .env in both client and server and replace your credentials
 
 5. Run 
@@ -100,7 +101,9 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    cd project-manager-graphql
    ```
+
    4. copy .env.example to .env in both client and server and replace your credentials
+
    5. In terminnal use this command to run containers
    ```sh
    docker compose up
