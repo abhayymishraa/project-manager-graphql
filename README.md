@@ -45,12 +45,12 @@ https://project-manager-graphql.vercel.app/
 
 This project leverages the following frameworks and libraries:
 
-* [![React][React.js]][https://react.dev/]
-* [![Express][Express.js]][https://expressjs.com/l]
-* [![GraphQL][GraphQL.js]][https://graphql.org/]
-* [![MongoDB][MongoDB.com]][https://www.mongodb.com/]
-* [![Apollo Client][Apollo.js]][https://www.apollographql.com/]
-* [![Docker][Docker.com]][https://www.docker.com/]
+* React
+* Express
+* GraphQL
+* MongoDB
+* Apollo Client
+* Docker
 
 
 
